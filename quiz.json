@@ -1,0 +1,99 @@
+
+ {   "quiz": {
+      "metadata": {
+        "title": "Science Quiz",
+        "description": "Test your knowledge in science!",
+        "author": "Your Name",
+        "version": "1.0",
+        "date_created": "2024-03-28",
+        "last_updated": "2024-03-28"
+      },
+      "categories": [
+        {
+          "id": 1,
+          "name": "Physics"
+        },
+        {
+          "id": 2,
+          "name": "Chemistry"
+        },
+        {
+          "id": 3,
+          "name": "Biology"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "category_id": 2,
+          "difficulty": "Easy",
+          "question_text": "What is the chemical symbol for water?",
+          "options": [
+            {"id": 1, "text": "H2O"},
+            {"id": 2, "text": "CO2"},
+            {"id": 3, "text": "NaCl"},
+            {"id": 4, "text": "O2"}
+          ],
+          "correct_option_id": 1,
+          "explanation": "Water is composed of two hydrogen atoms and one oxygen atom, hence the chemical formula H2O."
+        },
+        {
+          "id": 2,
+          "category_id": 1,
+          "difficulty": "Medium",
+          "question_text": "Who developed the theory of relativity?",
+          "options": [
+            {"id": 5, "text": "Isaac Newton"},
+            {"id": 6, "text": "Albert Einstein"},
+            {"id": 7, "text": "Galileo Galilei"},
+            {"id": 8, "text": "Stephen Hawking"}
+          ],
+          "correct_option_id": 6,
+          "explanation": "Albert Einstein developed the theory of relativity, one of the two pillars of modern physics."
+        },
+        {
+          "id": 3,
+          "category_id": 1,
+          "difficulty": "Hard",
+          "question_text": "What is the nearest planet to the Sun?",
+          "options": [
+            {"id": 9, "text": "Mars"},
+            {"id": 10, "text": "Venus"},
+            {"id": 11, "text": "Mercury"},
+            {"id": 12, "text": "Earth"}
+          ],
+          "correct_option_id": 11,
+          "explanation": "Mercury is the closest planet to the Sun, with an average distance of about 36 million miles."
+        },
+        {
+          "id": 4,
+          "category_id": 3,
+          "difficulty": "Easy",
+          "question_text": "What is the powerhouse of the cell?",
+          "options": [
+            {"id": 13, "text": "Mitochondria"},
+            {"id": 14, "text": "Nucleus"},
+            {"id": 15, "text": "Ribosome"},
+            {"id": 16, "text": "Endoplasmic reticulum"}
+          ],
+          "correct_option_id": 13,
+          "explanation": "Mitochondria are often called the powerhouse of the cell because they generate most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy."
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "difficulty": "Medium",
+          "question_text": "What is the chemical symbol for gold?",
+          "options": [
+            {"id": 17, "text": "Au"},
+            {"id": 18, "text": "Ag"},
+            {"id": 19, "text": "Fe"},
+            {"id": 20, "text": "Cu"}
+          ],
+          "correct_option_id": 17,
+          "explanation": "The chemical symbol for gold is Au, which comes from the Latin word 'aurum.'"
+        }
+      ]
+    }
+}
+  
